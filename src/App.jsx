@@ -4,7 +4,7 @@ import InputBox from "./InputBox";
 import useCurrencyConverter from "./hooks/CurrencyConverter";
 
 function App() {
-      let [amount,setAmount]=useState(0)
+      let [amount,setAmount]=useState("")
       let [ConvertedAmount,setConvertedAmount]=useState(0)
       let [From,setFrom]=useState("INR")
       let [To,setTo]=useState("USD")
